@@ -1,0 +1,365 @@
+html {
+	background: url(../img/green-wormhole2.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	background: url(../img/green-wormhole2.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.head {
+	padding-left: 64px;
+}
+.logo img {
+	width: 320px;
+	max-width: 100%;
+  	height: auto;
+  	margin-top: 70px;
+}
+.start p {
+	font-size: 20px;
+	letter-spacing: 0.15px;
+	font-weight: 500;
+	padding-right: 80px;
+	margin-top: 32px;
+}
+.comm a {
+	border: 2px solid #1e1e1e;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 17.5px;
+	color: #fff;
+	font-weight: 500;
+}
+.comm a:hover {
+	border: 2px solid  #33972d;
+}
+.comm a:focus {
+	background-color: #33732f;
+	border: 2px solid  #33972d;
+}
+.comm a:visited {
+	background-color: #33732f;
+}
+.comm a:active {
+	background-color: #33732f;
+}
+.active1 {
+	background-color: #33732f;
+}
+.comm {
+	margin-top: 25px;
+	text-align: right;
+}
+.commdotted a {
+	border: 2px dashed #1e1e1e;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 17.5px;
+	color: #fff;
+	font-weight: 500;
+}
+.commdotted a:hover {
+	border: 2px dashed #33972d;
+}
+.list-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.comm a i {
+	margin-right: 10px;
+}
+.carbon {
+	background-color: #1e1e1e;
+	padding: 32px;
+	font-weight: 500;
+	border-radius: 32px;
+	margin-bottom: 60px;
+}
+.carbon-head {
+	font-size: 42px;
+	letter-spacing: 0.25px;
+}
+.carbon-text {
+	font-size: 17px;
+	margin-top: 10px;
+}
+.carbon-text a {
+	text-decoration: none;
+}
+.carbon-text2 {
+	font-size: 17px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.nav-link {
+	width: 224.7px;
+	height: 52px;
+	background-color: #1e1e1e;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+.nav-link:hover {
+	background-color: #333333 !important;
+}
+.nav-link:visited {
+	background-color: #33732f !important;
+	color: #fff;
+}
+.nav-link:focus {
+	background-color: #33732f !important;
+	color: #fff;
+}
+.active {
+	background-color: #33732f !important;
+	color: #fff !important;
+	font-weight: 700;
+}
+.btn1 {
+	border-radius: 16px 0 0 0 !important;
+	border: 1px solid #33732f !important;
+}
+.btn2 {
+	border-radius: 0 16px 0 0 !important;
+	border: 1px solid #33732f !important;
+	margin-left: -2px;
+}
+.inputpass {
+	width: 380px;
+	height: 52px;
+	background-color: #1e1e1e;
+	border-radius: 0px 0px 0px 16px;
+}
+.inputpass:active, .inputpass:focus, .inputpass:visited {
+	background-color: #1e1e1e;
+	box-shadow: none;
+}
+.max-btn {
+	margin-left: -15px;
+	width: 70px;
+	height: 52px;
+	background-color: #1e1e1e;
+	border-radius: 0px 0px 16px !important;
+	font-size: 16px;
+	font-weight: 600;
+	border: 1px solid #33732f !important;
+}
+.max-btn:hover {
+	background-color: #333333 !important;
+}
+.max-btn:active, .max-btn:focus, .max-btn:visited {
+	background-color: #33732f;
+	box-shadow: none;
+}
+.formpart {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.colri {
+	margin-bottom: 8px;
+	text-align: right;
+}
+.conn {
+	font-size: 14px;
+	color: #a0a0a0;
+}
+.connect {
+	border: 2px solid #19605c;
+	border-radius: 3px;
+	padding: 5px;
+	color: #a0a0a0;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 30px;
+}
+.tres {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	margin-top: 32px;
+}
+.pmoney {
+	font-size: 25px;
+	color: #14c3b9;
+}
+.pmoney span {
+	font-size: 16px;
+}
+.bond {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	margin-top: 32px;
+}
+.bond1 {
+	font-weight: 500;
+}
+.bond2 {
+	color: #a2b5bb;
+}
+.bond-circle {
+	text-decoration: none;
+	background-color: #363636;
+	color: #fff;
+	padding: 17px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+.bond-circle:hover {
+	border: 1px solid #14c3b9;
+}
+.round a {
+	text-decoration: none;
+}
+.circlec {
+	font-size: 15px;
+}
+.circlep {
+	margin-top: 7px;
+	opacity: 50%;
+	font-size: 17px;
+}
+.circlep2 {
+	opacity: 100%;
+}
+.sp span {
+	color: #a0a0a0;
+	font-size: 15px;
+}
+.where {
+	font-size: 28px;
+	line-height: 30px;
+	margin-top: 24px;
+}
+.carbon-text {
+	line-height: 25.05px;
+	letter-spacing: 0.25px;
+}
+.ca2 {
+	font-size: 16px;
+	margin-top: 3px;
+}
+
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footimg img {
+	width: 213px;
+	margin-top: 111px;
+	margin-bottom: 10px;
+}
+.footimg {
+	display: flex;
+	justify-content: center;
+}
+.footlink {
+	margin-top: 48px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 48px;
+}
+.footlink a {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
+	opacity: 90%;
+}
+.footlink div {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.head {
+		padding-left: 10px;
+	}
+	.start p {
+	padding-right: 20px;
+	font-size: 18px;
+	}
+	.imgfill-img {
+		width: 450px;
+		height: 154px;
+		margin-left: -15px;
+	}
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+		background: url(../img/green-wormhole2.png) no-repeat center center fixed, linear-gradient(#1e1e1e, #1e1e1e);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-blend-mode: multiply;
+	}
+	.dao-card p {
+		font-size: 15px;
+	}
+	.dao-card2 p {
+		font-size: 15px;
+	}
+	.dao-header {
+		font-size: 25px;
+	}
+	.colri {
+		margin-bottom: 8px;
+		text-align: right;
+	}
+	.carbon {
+		margin-top: 50px;
+	}
+	.carbon-head {
+		font-size: 32px;
+	}
+	.carbon-text, .carbon-text2 {
+		font-size: 13px;
+	}
+	.nav-link {
+		width: 159px;
+		height: 52px;
+	}
+	.inputpass {
+		width: 250px;
+		height: 52px;
+		background-color: #1e1e1e;
+		border-radius: 0px 0px 0px 16px;
+	}
+	.max-btn {
+		margin-left: -36px;
+		width: 70px;
+		height: 52px;
+	}
+	.connect {
+		font-size: 14px;
+	}
+	.comm {
+	text-align: left;
+}
+}

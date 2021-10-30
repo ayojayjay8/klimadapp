@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Wallet Connect</title>
+</head>
+<!--Font Family-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+
+<body>
+    <section>
+            <div class="head">
+                <div class="container-fluid">
+                <div class="row">
+                    <a href="index.html"><div class="logo">
+                        <img src="img/klima-logo.png">
+                    </div></a>
+                    <div class="col-md-7">
+                        <div class="start">
+                        <p>Welcome to the Klima dApp. Bond carbon to buy KLIMA. Stake KLIMA to earn interest.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-5"></div>
+                    <div class="col-md-3">
+                        <div class="list-item" id="menu_about">
+                            <div class="comm commdotted">
+                                <a href="wallet.html">CONNECT WALLET</a>
+                            </div>
+                            <div class="comm">
+                                <a class="link" href="#redeem" data-link="first">REDEEM AKLIMA</a>
+                            </div>
+                            <div class="comm">
+                                <a class="link" href="#bond" data-link="second">BOND CARBON</a>
+                            </div>
+                            <div class="comm">
+                                <a class="link" href="#stake" data-link="third">STAKE KLIMA</a>
+                            </div>
+                            <div class="comm">
+                                <a class="link" href="#info" data-link="fourth">INFO & FAQ</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                        <div class="col-md-5" id="pages_about">
+                            <div class="carbon textWord_about text2" data-link="first">
+                                <div class="carbon-head">
+                                    Redeem aKLIMA
+                                </div>
+                                <div class="carbon-text">
+                                    If you received AlphaKLIMA from the Fair Launch Auction, or AlchemistKLIMA from the Crucible rewards event, use this tool to redeem them for KLIMA.
+                                </div>
+                                <div class="carbon-text2">
+                                    👉 Before proceeding: you must bridge your aKLIMA and alKLIMA tokens from Ethereum to Polygon.
+                                </div>
+                                <div class="carbon-text">
+                                    Complete the migration at <a href="#">wallet.polygon.technology</a> or, if you are new to this, read our <a href="#">tutorial for beginners</a>.
+                                </div>
+
+                        <div class="formpart">
+                        <div class="formheader">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active btn1" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">AKLIMA</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link btn2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">ALKLIMA</button>
+                              </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <form>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <div class="phraseinput">
+                                              <input type="number" class="form-control inputpass" id="exampleFormControlInput1" placeholder="AKLIMA TO REDEEM" name="wallet">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <button class="btn btn-primary max-btn" type="submit">MAX</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </form>
+                              </div>
+
+                              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                                  <form>
+                                      <div class="row">
+                                        <div class="col-10">
+                                            <div class="phraseinput">
+                                              <input type="number" class="form-control inputpass" id="exampleFormControlInput1" placeholder="ALKLIMA TO REDEEM" name="wallet">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <button class="btn btn-primary max-btn" type="">MAX</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </form>
+                              </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 colri col-sm-6">Redeemable aKLIMA</div>
+                        <div class="col-6 conn col-sm-6">NOT CONNECTED</div>
+                        <div class="col-6 colri col-sm-6">Redeemable alKLIMA</div>
+                        <div class="col-6 conn col-sm-6">NOT CONNECTED</div>
+                        <div class="col-6 colri col-sm-6">Balance</div>
+                        <div class="col-6 conn col-sm-6">NOT CONNECTED</div>
+                        <div class="col-6 col-sm-6"></div>
+                        <div class="col-6 col-sm-6">
+                                <div class="connect">
+                                    PLEASE CONNECT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carbon textWord_about" data-link="second">
+                                <div class="carbon-head">
+                                    Bond Carbon.
+                                </div>
+                                <div class="carbon-text">
+                                    The best way to buy KLIMA. Commit carbon to our treasury, and receive KLIMA at a discount. All bonds have a mandatory 5-day vesting period.
+                                </div>
+                                <div class="tres">TREASURY BALANCE</div>
+                                <div class="pmoney">
+                                    6,897,910 <span>T CO2</span>
+                                </div>
+                                <div class="bond">
+                                    <div class="bond1">
+                                        CHOOSE A BOND:
+                                    </div>
+                                    <div class="bond2">
+                                        %DISCOUNT
+                                    </div>
+                                </div>
+
+                                <div class="round">
+                                    <a href="#">
+                                        <div class="bond-circle">
+                                    <div class="circlec">
+                                        BCT <br>
+                                        Base Carbon Tons (Verra Carbon Standard)
+                                    </div>
+                                    <div class="circlep">
+                                        -31.81%
+                                    </div>
+                                </div>
+                                    </a>
+                                </div>
+                                <div class="round">
+                                    <a href="#">
+                                        <div class="bond-circle">
+                                    <div class="circlec">
+                                        BCT/KLIMA LP<br>
+                                        BCT/KLIMA Sushiswap LP Bonds
+                                    </div>
+                                    <div class="circlep circlep2">
+                                        4.12%
+                                    </div>
+                                </div>
+                                    </a>
+                                </div>
+                                <div class="round">
+                                    <a href="#">
+                                        <div class="bond-circle">
+                                    <div class="circlec">
+                                        BCT/USDC LP<br>
+                                        BCT/USDC Sushiswap LP Bonds
+                                    </div>
+                                    <div class="circlep">
+                                        -10.46%
+                                    </div>
+                                </div>
+                                    </a>
+                                </div>
+                    </div>
+                     <div class="carbon textWord_about" data-link="third">
+                                <div class="carbon-head">
+                                    Stake KLIMA.
+                                </div>
+                                <div class="carbon-text">
+                                   Hold, stake, and compound. If the protocol earns a profit selling carbon bonds, these rewards are shared among all holders of sKLIMA (staked KLIMA).
+                                </div>
+                                
+                        <div class="formpart">
+                        <div class="formheader">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active btn1" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">STAKE</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link btn2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">UNSTAKE</button>
+                              </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <form>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <div class="phraseinput">
+                                              <input type="number" class="form-control inputpass" id="exampleFormControlInput1" placeholder="AMOUNT TO STAKE" name="wallet">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <button class="btn btn-primary max-btn" type="submit">MAX</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </form>
+                              </div>
+
+                              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                                  <form>
+                                      <div class="row">
+                                        <div class="col-10">
+                                            <div class="phraseinput">
+                                              <input type="number" class="form-control inputpass" id="exampleFormControlInput1" placeholder="AMOUNT TO UNSTAKE" name="wallet">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <button class="btn btn-primary max-btn" type="">MAX</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </form>
+                              </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 colri col-sm-6">Balance</div>
+                        <div class="col-6 conn col-sm-6">NOT CONNECTED</div>
+                        <div class="col-6 colri col-sm-6">Staked</div>
+                        <div class="col-6 conn col-sm-6">NOT CONNECTED</div>
+                        <div class="col-6 colri col-sm-6">Time until rebase</div>
+                        <div class="col-6 conn col-sm-6"> </div>
+                        <div class="col-6 colri col-sm-6">Next Rebase</div>
+                        <div class="col-6 col-sm-6 sp">0.53<span>%</span></div>
+                        <div class="col-6 colri col-sm-6">ROI (5-day rate)</div>
+                        <div class="col-6 col-sm-6 sp">8.24<span>%</span></div>
+                        <div class="col-6 colri col-sm-6">APY</div>
+                        <div class="col-6 col-sm-6 sp">32,426.7<span>%</span></div>
+                        <div class="col-6 colri col-sm-6">Current index</div>
+                        <div class="col-6 col-sm-6 sp">1.1703 <span>KLIMA</span></div>
+                        <div class="col-6 col-sm-6"></div>
+                        <div class="col-6 col-sm-6">
+                                <div class="connect">
+                                    PLEASE CONNECT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carbon textWord_about" data-link="fourth">
+                                <div class="carbon-head">
+                                    Info & FAQ
+                                </div>
+                                <div class="carbon-text">
+                                    Common app-related questions and useful links. For comprehensive reading on KlimaDAO, see our <a href="#">official docs</a>.
+                                </div>
+                                <div class="tres">FAQ</div>
+                                <div class="where">Where can I get KLIMA?</div>
+                                <div class="carbon-text">
+                                    See our <a href="#">tutorial for newcomers</a>.
+                                </div>
+
+                                <div class="round">
+                                    <div class="where">Why won't the dApp load for me?</div>
+                                    <div class="carbon-text">
+                                        If the app says 'loading...' this is likely a problem with your network configuration in Metamask. To fix this: <br>
+                                        1. Open Metamask and switch to Ethereum Mainnet <br>
+                                        2. Go to Settings/Networks/Polygon and click 'delete' <br>
+                                        3. Return to dapp.klimadao.finance and click 'switch to mainnet'.
+                                        Metamask should prompt you to add Polygon, with the correct RPC configuration.
+                                    </div>
+                                    <div class="where">Why don't I see my sKLIMA balance?</div>
+                                    <div class="carbon-text">There is a small bug affecting users who staked in the first 18 hours after launch. We have posted <a href="#">step-by-step instructions</a> to fix the issue.</div>
+                                </div>
+
+                                <div class="tres">OFFICIAL POLYGON ADDRESSES</div>
+                                <div class="carbon-text ca2">KLIMA Token</div>
+                                <div class="carbon-text ca2"><a href="#">0x4e78011ce80ee02d2c3e649fb657e45898257815</a></div>
+                                <div class="carbon-text ca2">sKLIMA Token</div>
+                                <div class="carbon-text ca2"><a href="#">00xb0C22d8D350C67420f06F48936654f567C73E8C8</a></div>
+                                <div class="carbon-text ca2">BCT Token</div>
+                                <div class="carbon-text ca2"><a href="#">0x2f800db0fdb5223b3c3f354886d907a671414a7f</a></div>
+                                <div class="carbon-text ca2">BCT/USDC Pool</div>
+                                <div class="carbon-text ca2"><a href="#">0x1e67124681b402064cd0abe8ed1b5c79d2e02f64</a></div>
+                                <div class="carbon-text ca2">KLIMA/BCT Pool</div>
+                                <div class="carbon-text ca2"><a href="#">0x9803c7ae526049210a1725f7487af26fe2c24614</a></div>
+
+                                <div class="tres">LINKS</div>
+                                <div class="carbon-text ca2"><a href="#">🍣 SushiSwap BCT/USDC</a></div>
+                                <div class="carbon-text ca2"><a href="#">🍣 SushiSwap KLIMA/BCT</a></div>
+                                <div class="carbon-text ca2"><a href="#">👨‍👩‍👧‍👧 Community Hub (tutorials & more)</a></div>
+                                <div class="carbon-text ca2"><a href="#">📚 Official Docs</a></div>
+                                </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3"></div>
+                
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+                    <div class="container footer1">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-2">
+                                <div class="footimg">
+                                    <img src="img/klima-logo.png">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                    <div class="footlink">
+                        <div><a href="#">app</a></div>
+                        <div><a href="#">docs</a></div>
+                        <div><a href="#">blog</a></div>
+                        <div><a href="#">newsletter</a></div>
+                        <div><a href="#">community</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>

@@ -1,0 +1,280 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	background-color: #1e1e1e;
+}
+.head {
+	background-repeat: no-repeat;
+	background-image: url(../img/green-wormhole2.png);
+	padding-left: 64px;
+}
+.logo img {
+	width: 320px;
+	max-width: 100%;
+  	height: auto;
+  	margin-top: 70px;
+}
+.start p {
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	font-weight: 500;
+	padding-right: 50px;
+	margin-top: 32px;
+}
+.comm a {
+	border: 2px solid #33972d;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 17.5px;
+	color: #fff;
+	font-weight: 500;
+}
+.comm {
+	margin-top: 35px;
+}
+.comm a i {
+	margin-right: 10px;
+}
+.carbon {
+	background-color: #1e1e1e;
+	padding: 15px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+.carbon-head, .eqq {
+	font-size: 12.5px;
+	letter-spacing: 1.5px;
+}
+.carbon-num {
+	color: #14c3b9;
+	font-size: 42px;
+}
+.carbon-num span {
+	font-size: 15px;
+	color: #fff;
+}
+.eqq {
+	margin-top: 16px;
+	letter-spacing: 1.5px;
+}
+.equip {
+	color: #1ea39b;
+	font-size: 17px;
+	letter-spacing: 0.25px;
+}
+.equip span {
+	color: #fff;
+}
+.hh {
+	font-size: 12.5px;
+	letter-spacing: 1.5px;
+}
+.prr {
+	font-size: 30px;
+	letter-spacing: 0.18px;
+	color: #14c3b9;
+	margin-top: -10px;
+}
+.carbon2 {
+	width: 137px;
+	background-color: #1e1e1e;
+	padding: 5px;
+	padding-top: 10px;
+	font-weight: 500;
+	margin-top: 40px;
+	text-align: center;
+}
+.soo {
+	color: #808080;
+	font-size: 15px;
+}
+.carbon3 {
+	margin-top: 20px;
+}
+.godown i {
+	font-size: 30px;
+	font-weight: 900;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.dao {
+	background-color: #121212;
+	margin-top: -13px;
+}
+.dao-card {
+	background-color: #1e1e1e;
+	margin-top: 38px;
+	padding: 24px;
+	margin-bottom: 38px;
+}
+.dao-header {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.dao-header span {
+	color: #14c3b9;
+}
+.dao-card p {
+	font-size: 19px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+.black {
+	background-color: #121212;
+	margin-top: 5px;
+}
+.black-head {
+	margin-top: 38px;
+	margin-bottom: 38px;
+}
+.black-head p {
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.black-head span {
+	color: #14c3b9;
+}
+.imgfill {
+	background-repeat: no-repeat;
+	background-image: url(../img/space-forest.jpg), linear-gradient(#1e1e1e, #1e1e1e);
+	background-blend-mode: multiply;
+}
+.imgfill-img {
+	width: 680px;
+	height: 234px;
+	border: 1px;
+	border-radius: 24px;
+	background-image: url(../img/black-hole-sun.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 15px 0px rgba(51,151,45,0.3);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(51,151,45,0.3);
+-moz-box-shadow: 0px 0px 15px 0px rgba(51,151,45,0.3);
+	margin-bottom: 80px;
+	position: sticky !important;
+	position: -webkit-sticky;
+  	top: 0 !important;
+}
+.dash {
+	display: flex;
+	justify-content: center;
+}
+.dash-dash {
+	width: 24px;
+	height: 2px;
+	background-color: #33972d;
+	margin-bottom: 130px;
+	margin-top: 75px;
+}
+.dao-card2 {
+	background-color: #1e1e1e;
+	margin-top: 38px;
+	padding: 24px;
+	margin-bottom: 38px;
+	border-radius: 8px;
+	text-align: center;
+}
+.dao-card2 p {
+	font-size: 20px;
+}
+.powerby {
+	background-color: #121212;
+	display: flex;
+	justify-content: center;
+}
+.powerby img {
+	width: 220px;
+	margin-top: 38px;
+	margin-bottom: 40px;
+}
+.powerby {
+	margin-top: 2px;
+}
+.footer {
+	background-repeat: no-repeat;
+	background-image: url(../img/footerimg.jpg), linear-gradient(#1e1e1e, #1e1e1e);
+	
+}
+
+.footimg img {
+	width: 213px;
+	margin-top: 111px;
+	margin-bottom: 10px;
+}
+.footimg {
+	display: flex;
+	justify-content: center;
+}
+.footlink {
+	margin-top: 48px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 48px;
+}
+.footlink a {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
+	opacity: 90%;
+}
+.footlink div {
+	margin-bottom: 10px;
+}
+.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+  	top: 0;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.head {
+		padding-left: 10px;
+	}
+	.start p {
+	padding-right: 20px;
+	font-size: 18px;
+	}
+	.imgfill-img {
+		width: 450px;
+		height: 154px;
+		margin-left: -15px;
+	}
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.dao-card p {
+		font-size: 15px;
+	}
+	.dao-card2 p {
+		font-size: 15px;
+	}
+	.dao-header {
+		font-size: 25px;
+	}
+	.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+  	top: 0;
+}
+
+}
